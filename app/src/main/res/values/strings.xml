@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProfilBLKI</string>
+    <string name="Profil">profil</string>
+    <string name="Tentang">tentang</string>
+    <string name="Jenis_Kejuruan">jenis Kejuruan</string>
+    <string name="upt_pk_singosari">UPT-PK Singosari</string>
+</resources>

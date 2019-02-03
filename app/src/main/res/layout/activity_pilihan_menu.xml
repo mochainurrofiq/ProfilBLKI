@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pilihanMenu">
+
+    <Button
+        android:id="@+id/btn_for_profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/btn1"
+        android:text="@string/Profil"
+        android:onClick="doProfil"/>
+
+    <Button
+        android:id="@+id/btn_for_kejuruan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Jenis_Kejuruan"
+        android:layout_below="@id/btn_for_profil"
+        android:onClick="doKejuruan"/>
+
+    <Button
+        android:id="@+id/btn_tentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Tentang"
+        android:layout_below="@id/btn_for_kejuruan"
+        android:onClick="doTentang"/>
+
+</RelativeLayout>
